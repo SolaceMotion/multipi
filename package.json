@@ -1,0 +1,34 @@
+{
+  "name": "multipi",
+  "version": "1.0.0",
+  "description": "Just for testing purpose thus far",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jestconfig.json",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolaceMotion/multipi.git"
+  },
+  "keywords": [
+    "PI"
+  ],
+  "author": "SolaceMotion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SolaceMotion/multipi/issues"
+  },
+  "homepage": "https://github.com/SolaceMotion/multipi#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
